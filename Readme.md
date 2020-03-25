@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Viktoriia Horobko](https://up.htmlacademy.ru/adaptive/19/user/1093913).
-* Наставник: `Неизвестно`.
+* Наставник: [Татьяна Симоненко](https://up.htmlacademy.ru/htmlcss/27/user/6613).
 
 ---
 
