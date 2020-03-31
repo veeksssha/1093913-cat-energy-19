@@ -22,11 +22,78 @@
     </header>
 
     <main class="main">
-
+    <form class="form" action="https://echo.htmlacademy.ru" method="post">
+      <h1 class="form__title">Подбор программы</h1>
+      <p class="form__description">Заполните анкету и мы подберем программу питания для вашего кота</p>
+      <fieldset class="form__group">
+        <div class="form__input-wrapper">
+          <label class="form__label" for="user-name">Имя:*</label>
+          <input class="form__input" type="text" name="user-name" id="user-name" placeholder="Барсик">
+        </div>
+        <div class="form__input-wrapper">
+          <label class="form__label" for="user-weight">Вес (кг):*</label>
+          <input class="form__input" type="text" name="user-weight" id="user-weight" placeholder="7">
+        </div>
+        <div class="form__input-wrapper">
+          <label class="form__label" for="user-age">Возраст (лет):*</label>
+          <input class="form__input" type="text" name="user-age" id="user-age" placeholder="7">
+        </div>
+      </fieldset>
+      <fieldset class="form__group">
+        <div class="form__input-wrapper">
+          <input class="form__checkbox" type="checkbox" name="form-checkbox-weight-loss" id="form-checkbox" checked>
+          <label class="form__label" for="form-checkbox-weight-loss">Похудение</label>
+        </div>
+        <div class="form__input-wrapper">
+          <input class="form__checkbox" type="checkbox" name="form-checkbox-weight-gain" id="form-checkbox">
+          <label class="form__label" for="form-checkbox-weight-gain">Набор массы</label>
+        </div>
+        <div class="form__input-wrapper">
+          <input class="form__checkbox" type="checkbox" name="form-checkbox-dunno" id="form-checkbox">
+          <label class="form__label" for="form-checkbox-dunno">Не знаю (нужен Ваш совет)</label>
+        </div>
+      </fieldset>
+      <fieldset class="form__group">
+        <legend class="form__legend">Контактные данные (владельца кота)</legend>
+        <div class="form__input-wrapper">
+          <label class="form__label" for="user-email">E-mail:*</label>
+          <input class="form__input" type="email" name="user-email" id="user-email" placeholder="kuklachev@gmail.com">
+        </div>
+        <div class="form__input-wrapper">
+          <label class="form__label" for="user-phone">Телефон:*</label>
+          <input class="form__input" type="tel" name="user-phone" id="user-phone" placeholder="8(960)900-60-90">
+        </div>
+      </fieldset>
+      <fieldset class="form__group">
+        <legend class="form__legend">Комментарий</legend>
+        <textarea class="form__comment"></textarea>
+      </fieldset>
+      <fieldset class="form__group">
+        <legend class="form__legend">Дополнительно</legend>
+        <div class="form__input-wrapper">
+          <input class="form__radio" type="radio" name="form-radio-" id="form-radio" checked>
+          <label class="form__label" for="form-radio-sweetener">Сахарозаменитель</label>
+        </div>
+        <div class="form__input-wrapper">
+          <input class="form__radio" type="radio" name="form-radio-water" id="form-radio">
+          <label class="form__label" for="form-radio-water">Питьевая вода</label>
+        </div>
+        <div class="form__input-wrapper">
+          <input class="form__radio" type="radio" name="form-radio-milk" id="form-radio">
+          <label class="form__label" for="form-radio-milk">Молоко</label>
+        </div>
+        <div class="form__input-wrapper">
+          <input class="form__radio" type="radio" name="form-radio-vitamins" id="form-radio">
+          <label class="form__label" for="form-radio-vitamins">Витамины</label>
+        </div>
+      </fieldset>
+      <button class="form__button" type="submit">Отправить заявку</button>
+      <p class="form__disclaimer">* — Обязательные поля</p>
+    </form>
     </main>
 
     <footer class="footer">
-      <div class="address">
+      <div class="footer__address address">
         <h2 class="address__title">Приглашаем к сотрудничеству дилеров!</h2>
         <p class="address__text">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
       </div>
@@ -39,7 +106,7 @@
         <img class="footer__logo" src="img/logo-mobile.png" width="128" height="24" alt="Кэт энерджи">
       </a>
 
-      <div class="social">
+      <div class="footer__social social">
         <ul class="social__list">
           <li class="social__item"><a href="#">Вконтакте</a></li>
           <li class="social__item"><a href="#">Инстаграм</a></li>
@@ -47,7 +114,7 @@
         </ul>
       </div>
 
-      <div class="copyright">
+      <div class="footer__copyright copyright">
         <a class="copyright__link" href="#">HTML Academy</a>
         <img class="copyright__image" src="img/htmlacademy.svg" width="27" height="34" alt="HTML Академия">
       </div>
